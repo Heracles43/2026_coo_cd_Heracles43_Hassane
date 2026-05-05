@@ -1,0 +1,9 @@
+1. Le main crée un ChargeurMagasin avec le chemin du répertoire
+2. On appelle chargerMagasin()
+3. Un Magasin vide est créé
+4. Pour chaque fichier XML du répertoir
+   - Un ChargeurCD est créé
+   - chargerCD() cree un CD avec artiste et titre
+   - Les pistes sont extraites et ajoutées au CD
+   - Le CD est ajouté au Magasin
+5. Le Magasin rempli est retourné
