@@ -56,7 +56,7 @@ public class Magasin {
 	}
 	
 	/**
-	 * permet d'acceder � un CD
+	 * permet d'acceder � un CD
 	 * 
 	 * @return le cd a l'indice i ou null si indice est non valide
 	 */
@@ -67,6 +67,13 @@ public class Magasin {
 			res=this.listeCds.get(i);
 		return(res);
 	}
+    private int indiceMinParTitre(ArrayList<CD> liste) {
+        throw new Error("Non implémenté");
+    }
+    public ArrayList<CD> trierParTitre() {
+        throw new Error("Non implémenté");
+    }
+
 
 	// TODO  ajouter une methode de tri
 

@@ -95,6 +95,10 @@ public class CD {
 		if (numPiste < 10)
 			resultat = "0" + resultat;
 		return (resultat);
+
+		public boolean estPlusPetitParTitre(CD autre) {
+			throw new Error("Non implémenté");
+		}
 	}
 
 	// TODO 
